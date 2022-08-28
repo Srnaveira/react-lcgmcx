@@ -1,0 +1,23 @@
+.list-prod {
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.list-prod-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+
+.list-prod-item div {
+  width: 100%;
+}
+
+.list-prod-item:nth-child(2n + 1) {
+  background-color: rgb(167, 247, 207);
+}
+.list-prod-item:nth-child(2n) {
+  background-color: rgb(136, 230, 183);
+}
